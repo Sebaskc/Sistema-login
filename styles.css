@@ -1,0 +1,124 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Asegura que los elementos de la página se apilen verticalmente */
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center; /* Asegura que todo dentro de .container esté centrado */
+}
+
+/* Estilo para el título principal */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Asegura que los elementos dentro del formulario tengan un espacio */
+}
+
+/* Estilo para los inputs */
+input {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%; /* Asegura que los inputs ocupen todo el ancho disponible */
+}
+
+/* Estilo para los botones */
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%; /* Hace que el botón ocupe todo el ancho disponible */
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo para el enlace de registro */
+a.register-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a.register-button:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el título de opciones */
+h2 {
+    color: green;
+    text-align: center;
+    margin-top: 30px; /* Asegura que el título esté debajo del formulario */
+    margin-bottom: 10px; /* Agrega un pequeño espacio debajo del h2 */
+}
+
+/* Asegura que el botón "Ver Usuarios Registrados" esté debajo del h2 */
+form button {
+    width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Añade un margen superior a la tabla */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.welcome-message {
+    font-weight: bold;              /* Negrita */
+    color: white;                  /* Texto en blanco */
+    background-color: #ADD8E6;     /* Fondo azul claro */
+    padding: 10px;                 /* Espaciado interno */
+    border-radius: 5px;            /* Bordes redondeados */
+    display: inline-block;         /* Mostrar como bloque en línea */
+    text-align: center;            /* Alineación centrada */
+    margin-top: 20px;              /* Espaciado superior */
+}
+
